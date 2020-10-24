@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="40dp"
+            android:background="#ffffff"
+            android:text="">
+
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_horizontal"
+                    android:text=" Calculadora"
+                    android:textColor="@color/texto"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="20dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center"
+                android:layout_margin="5dp"
+                >
+
+
+
+
+
+
+
+            </GridLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom">
+
+        </FrameLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_gravity="center|bottom"
+
+            android:background="@color/fondodos"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/fondodos"
+
+                android:columnCount="5"
+                android:orientation="horizontal"
+                android:padding="15dp"
+                android:layout_marginStart="10dp"
+                android:rowCount="6">
+
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E7E8E8"
+                    android:text="MC"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="MR"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="MS"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="M+"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="M-"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="←"
+                    android:textColor="@color/letras"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="CE"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="CC"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="+/-"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="√"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="7"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="8"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="9"
+                    android:textColor="@color/letras" />
+
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="/"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="%"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="4"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="5"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="6"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="*"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="1/x"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="1"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="2"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="3"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_row="0"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="-"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="130dp"
+                    android:layout_row="0"
+                    android:layout_rowSpan="2"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="="
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="127dp"
+                    android:layout_height="60dp"
+                    android:layout_columnSpan="2"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text="0"
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#F2F6F6"
+                    android:text=","
+                    android:textColor="@color/letras" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="4dp"
+                    android:background="#E8E7E7"
+                    android:text="+"
+                    android:textColor="@color/letras" />
+
+                />
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>
